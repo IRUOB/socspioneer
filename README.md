@@ -28,7 +28,8 @@ using Python 3 when writing Python nodes.*
 ### Build package
 
 - Clone this repo to the `src` directory of your catkin workspace.
-- Build the catkin workspace (`catkin_make` or `catkin build`).
+- Build the catkin workspace (`catkin_make` ).
+<!-- or `catkin build` -->
 
 **NOTE: The catkin workspace should be sourced each time a new
 terminal session is loaded (run `source devel/setup.bash`). Alternatively,
