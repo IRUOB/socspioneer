@@ -21,6 +21,10 @@ using Python 3 when writing Python nodes.*
 
 ### Install dependencies
 
+Before install everything, run the upgrade command so your system stays update to date.
+```
+sudo apt upgrade && sudo apt update
+```
 - `sudo apt install ros-$ROS_DISTRO-pr2-teleop ros-$ROS_DISTRO-joy ros-$ROS_DISTRO-slam-gmapping ros-$ROS_DISTRO-map-server`.
 - *Not needed when using simulation; Only required for real Pioneer
 3DX robot.* `sudo apt install ros-$ROS_DISTRO-p2os-driver ros-$ROS_DISTRO-p2os-launch ros-$ROS_DISTRO-p2os-urdf ros-$ROS_DISTRO-p2os-teleop`.
